@@ -1,10 +1,12 @@
 {
 	"name": "Add-bot",
-	"version": "1.0.0",
 	"description": "Fucking shit tittles",
+	"version": "0.0.0",
 	"main": "bot.js",
-	"author": "Ainchase ishmael",
-	"dependencies": {
+	"scripts": {
+	  "start": "node bot.js"
+	},
+	"Dependancies": {
 		"discord.io": "file:discord.io",
 		"save": "^2.3.2",
 		"winston": "^3.1.0"
